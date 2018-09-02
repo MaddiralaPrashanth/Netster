@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72AAD967213C1E400030A169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AAD966213C1E400030A169 /* AppDelegate.m */; };
+		72AAD96A213C1E400030A169 /* Netster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72AAD968213C1E400030A169 /* Netster.xcdatamodeld */; };
+		72AAD96D213C1E400030A169 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AAD96C213C1E400030A169 /* MasterViewController.m */; };
+		72AAD970213C1E400030A169 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AAD96F213C1E400030A169 /* DetailViewController.m */; };
+		72AAD973213C1E400030A169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72AAD971213C1E400030A169 /* Main.storyboard */; };
+		72AAD975213C1E420030A169 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72AAD974213C1E420030A169 /* Assets.xcassets */; };
+		72AAD978213C1E420030A169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72AAD976213C1E420030A169 /* LaunchScreen.storyboard */; };
+		72AAD97B213C1E420030A169 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AAD97A213C1E420030A169 /* main.m */; };
+		72AAD985213C1E420030A169 /* NetsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AAD984213C1E420030A169 /* NetsterTests.m */; };
+		72AAD990213C1E420030A169 /* NetsterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AAD98F213C1E420030A169 /* NetsterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72AAD981213C1E420030A169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72AAD95A213C1E400030A169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72AAD961213C1E400030A169;
+			remoteInfo = Netster;
+		};
+		72AAD98C213C1E420030A169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72AAD95A213C1E400030A169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72AAD961213C1E400030A169;
+			remoteInfo = Netster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72AAD962213C1E400030A169 /* Netster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AAD965213C1E400030A169 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72AAD966213C1E400030A169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72AAD969213C1E400030A169 /* Netster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Netster.xcdatamodel; sourceTree = "<group>"; };
+		72AAD96B213C1E400030A169 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		72AAD96C213C1E400030A169 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		72AAD96E213C1E400030A169 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		72AAD96F213C1E400030A169 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		72AAD972213C1E400030A169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72AAD974213C1E420030A169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72AAD977213C1E420030A169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72AAD979213C1E420030A169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AAD97A213C1E420030A169 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72AAD980213C1E420030A169 /* NetsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AAD984213C1E420030A169 /* NetsterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetsterTests.m; sourceTree = "<group>"; };
+		72AAD986213C1E420030A169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AAD98B213C1E420030A169 /* NetsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AAD98F213C1E420030A169 /* NetsterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetsterUITests.m; sourceTree = "<group>"; };
+		72AAD991213C1E430030A169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72AAD95F213C1E400030A169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AAD97D213C1E420030A169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AAD988213C1E420030A169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72AAD959213C1E400030A169 = {
+			isa = PBXGroup;
+			children = (
+				72AAD964213C1E400030A169 /* Netster */,
+				72AAD983213C1E420030A169 /* NetsterTests */,
+				72AAD98E213C1E420030A169 /* NetsterUITests */,
+				72AAD963213C1E400030A169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72AAD963213C1E400030A169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72AAD962213C1E400030A169 /* Netster.app */,
+				72AAD980213C1E420030A169 /* NetsterTests.xctest */,
+				72AAD98B213C1E420030A169 /* NetsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72AAD964213C1E400030A169 /* Netster */ = {
+			isa = PBXGroup;
+			children = (
+				72AAD965213C1E400030A169 /* AppDelegate.h */,
+				72AAD966213C1E400030A169 /* AppDelegate.m */,
+				72AAD96B213C1E400030A169 /* MasterViewController.h */,
+				72AAD96C213C1E400030A169 /* MasterViewController.m */,
+				72AAD96E213C1E400030A169 /* DetailViewController.h */,
+				72AAD96F213C1E400030A169 /* DetailViewController.m */,
+				72AAD971213C1E400030A169 /* Main.storyboard */,
+				72AAD974213C1E420030A169 /* Assets.xcassets */,
+				72AAD976213C1E420030A169 /* LaunchScreen.storyboard */,
+				72AAD979213C1E420030A169 /* Info.plist */,
+				72AAD97A213C1E420030A169 /* main.m */,
+				72AAD968213C1E400030A169 /* Netster.xcdatamodeld */,
+			);
+			path = Netster;
+			sourceTree = "<group>";
+		};
+		72AAD983213C1E420030A169 /* NetsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				72AAD984213C1E420030A169 /* NetsterTests.m */,
+				72AAD986213C1E420030A169 /* Info.plist */,
+			);
+			path = NetsterTests;
+			sourceTree = "<group>";
+		};
+		72AAD98E213C1E420030A169 /* NetsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72AAD98F213C1E420030A169 /* NetsterUITests.m */,
+				72AAD991213C1E430030A169 /* Info.plist */,
+			);
+			path = NetsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72AAD961213C1E400030A169 /* Netster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AAD994213C1E430030A169 /* Build configuration list for PBXNativeTarget "Netster" */;
+			buildPhases = (
+				72AAD95E213C1E400030A169 /* Sources */,
+				72AAD95F213C1E400030A169 /* Frameworks */,
+				72AAD960213C1E400030A169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Netster;
+			productName = Netster;
+			productReference = 72AAD962213C1E400030A169 /* Netster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72AAD97F213C1E420030A169 /* NetsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AAD997213C1E430030A169 /* Build configuration list for PBXNativeTarget "NetsterTests" */;
+			buildPhases = (
+				72AAD97C213C1E420030A169 /* Sources */,
+				72AAD97D213C1E420030A169 /* Frameworks */,
+				72AAD97E213C1E420030A169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72AAD982213C1E420030A169 /* PBXTargetDependency */,
+			);
+			name = NetsterTests;
+			productName = NetsterTests;
+			productReference = 72AAD980213C1E420030A169 /* NetsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72AAD98A213C1E420030A169 /* NetsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AAD99A213C1E430030A169 /* Build configuration list for PBXNativeTarget "NetsterUITests" */;
+			buildPhases = (
+				72AAD987213C1E420030A169 /* Sources */,
+				72AAD988213C1E420030A169 /* Frameworks */,
+				72AAD989213C1E420030A169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72AAD98D213C1E420030A169 /* PBXTargetDependency */,
+			);
+			name = NetsterUITests;
+			productName = NetsterUITests;
+			productReference = 72AAD98B213C1E420030A169 /* NetsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72AAD95A213C1E400030A169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "DAVID PRASHANTH";
+				TargetAttributes = {
+					72AAD961213C1E400030A169 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					72AAD97F213C1E420030A169 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 72AAD961213C1E400030A169;
+					};
+					72AAD98A213C1E420030A169 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 72AAD961213C1E400030A169;
+					};
+				};
+			};
+			buildConfigurationList = 72AAD95D213C1E400030A169 /* Build configuration list for PBXProject "Netster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72AAD959213C1E400030A169;
+			productRefGroup = 72AAD963213C1E400030A169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72AAD961213C1E400030A169 /* Netster */,
+				72AAD97F213C1E420030A169 /* NetsterTests */,
+				72AAD98A213C1E420030A169 /* NetsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72AAD960213C1E400030A169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AAD978213C1E420030A169 /* LaunchScreen.storyboard in Resources */,
+				72AAD975213C1E420030A169 /* Assets.xcassets in Resources */,
+				72AAD973213C1E400030A169 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AAD97E213C1E420030A169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AAD989213C1E420030A169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72AAD95E213C1E400030A169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AAD97B213C1E420030A169 /* main.m in Sources */,
+				72AAD967213C1E400030A169 /* AppDelegate.m in Sources */,
+				72AAD96D213C1E400030A169 /* MasterViewController.m in Sources */,
+				72AAD96A213C1E400030A169 /* Netster.xcdatamodeld in Sources */,
+				72AAD970213C1E400030A169 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AAD97C213C1E420030A169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AAD985213C1E420030A169 /* NetsterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AAD987213C1E420030A169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AAD990213C1E420030A169 /* NetsterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72AAD982213C1E420030A169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72AAD961213C1E400030A169 /* Netster */;
+			targetProxy = 72AAD981213C1E420030A169 /* PBXContainerItemProxy */;
+		};
+		72AAD98D213C1E420030A169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72AAD961213C1E400030A169 /* Netster */;
+			targetProxy = 72AAD98C213C1E420030A169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72AAD971213C1E400030A169 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AAD972213C1E400030A169 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72AAD976213C1E420030A169 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AAD977213C1E420030A169 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72AAD992213C1E430030A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72AAD993213C1E430030A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72AAD995213C1E430030A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WNK45CP6M;
+				INFOPLIST_FILE = Netster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Netster.in.Netster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72AAD996213C1E430030A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WNK45CP6M;
+				INFOPLIST_FILE = Netster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Netster.in.Netster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72AAD998213C1E430030A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WNK45CP6M;
+				INFOPLIST_FILE = NetsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Netster.in.NetsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netster.app/Netster";
+			};
+			name = Debug;
+		};
+		72AAD999213C1E430030A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WNK45CP6M;
+				INFOPLIST_FILE = NetsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Netster.in.NetsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netster.app/Netster";
+			};
+			name = Release;
+		};
+		72AAD99B213C1E430030A169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WNK45CP6M;
+				INFOPLIST_FILE = NetsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Netster.in.NetsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Netster;
+			};
+			name = Debug;
+		};
+		72AAD99C213C1E430030A169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WNK45CP6M;
+				INFOPLIST_FILE = NetsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Netster.in.NetsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Netster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72AAD95D213C1E400030A169 /* Build configuration list for PBXProject "Netster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AAD992213C1E430030A169 /* Debug */,
+				72AAD993213C1E430030A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AAD994213C1E430030A169 /* Build configuration list for PBXNativeTarget "Netster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AAD995213C1E430030A169 /* Debug */,
+				72AAD996213C1E430030A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AAD997213C1E430030A169 /* Build configuration list for PBXNativeTarget "NetsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AAD998213C1E430030A169 /* Debug */,
+				72AAD999213C1E430030A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AAD99A213C1E430030A169 /* Build configuration list for PBXNativeTarget "NetsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AAD99B213C1E430030A169 /* Debug */,
+				72AAD99C213C1E430030A169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72AAD968213C1E400030A169 /* Netster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72AAD969213C1E400030A169 /* Netster.xcdatamodel */,
+			);
+			currentVersion = 72AAD969213C1E400030A169 /* Netster.xcdatamodel */;
+			path = Netster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72AAD95A213C1E400030A169 /* Project object */;
+}
